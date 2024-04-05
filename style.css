@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbf4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #e5dada;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+.input-greutate{
+ display: flex;
+ flex-direction: row;
+ font-family: sans-serif;
+ font-weight: 500;
+}
+.input-valoare{
+  border: none;
+  width: 180px;
+  height: 26px;
+  outline: none;
+}
+.input-valoare:hover{
+  background-color:rgb(233, 233, 233) ;
+}
+
+.btn-calculeaza {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.btn-calculeaza:hover {
+  background-color: #0056b3;
+}
+
+.rezultat {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0056b3;
+}
